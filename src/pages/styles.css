@@ -6,3 +6,7 @@
   background-color: #FFBA08 !important;
 
 }
+
+.swiper-button-next:hover ,.swiper-button-prev:hover{
+  filter: brightness(1.3);
+}

@@ -1,7 +1,8 @@
 import { Box, Text } from '@chakra-ui/react'
+
 import { Banner } from '../components/Banner'
 import { Header } from '../components/Header'
-import { Slide } from '../components/Slide'
+import { Slider } from '../components/Slider'
 import { TravelTypes } from '../components/TravelTypes'
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
         Vamos nessa?? <br /> Então escolha seu continente
       </Text>
 
-      <Slide />
+      <Slider />
     </Box>
   )
 }
